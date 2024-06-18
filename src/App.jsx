@@ -4,14 +4,12 @@ import Popular from "./components/Popular.jsx";
 
 const App = () => (
     <main className="relative">
+        <Nav />
         <section className="xl:padding-1 wide:padding-r padding-b">
-            <Nav />
-        </section>
-        <section>
             <Hero />
         </section>
         <section className="padding">
-          <Popular/>
+            <Popular />
         </section>
         <section className="padding"></section>
         <section className="padding">footer</section>
